@@ -53,13 +53,13 @@
                 echo " <br> <br> <center> ";
                 switch($lance){
                     case 0:
-                        echo "<img src='img/jo.png' width='150' height='120'>";
+                        echo "<img src='pedra.png' width='150' height='120'>";
                         break;
                     case 1:
-                        echo "<img src='img/ken.png' width='150' height='120'>";
+                        echo "<img src='papel.png' width='150' height='120'>";
                         break;
                     case 2:
-                        echo "<img src='img/po.png' width='150' height='120'>";
+                        echo "<img src='tesoura.png' width='150' height='120'>";
                 }
 
                 if($op == $lance){
